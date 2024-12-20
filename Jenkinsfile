@@ -30,5 +30,13 @@ pipeline {
                 }
             }
         }
+        stage('Deploy') {
+            steps {
+                script {
+
+                        echo "The code works fine"
+                }
+            }
+        }
     }
 }
